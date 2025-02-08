@@ -5,10 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sitio prueba </title>
 </head>
+<style>
+    .bonito{background-color:blueviolet;
+        font-family: sans-serif; 
+        color: white;
+        text-align: center;}
+
+    h1, nav{margin:0;
+        padding:0;}
+
+    nav {background-color: blueviolet;
+            padding: 10px;
+            display: flex;
+            justify-content: space-evenly;}
+
+        nav a {color: white;
+            text-decoration: none;
+            font-size: 18px;}
+
+        nav a:hover {text-decoration: underline;}
+</style>
 <body>
     <header>
-        <h1 style="color:blueviolet; text-align: center">Pasatiempos</h1>
+        <h1 class="bonito">Pasatiempos</h1>
         <nav>
+            <a href="index.html">Inicio</a>
             <a href="leer.html">Leer</a>
             <a href="musica.html">Música</a>
             <a href="cocinar.html">Cocinar</a>
